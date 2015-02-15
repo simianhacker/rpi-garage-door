@@ -4,7 +4,7 @@ Have you ever woken up in the morning to find you left your garage door open? Th
 
 ### Prep
 
-I'm assuming you know how to setup your Raspberry Pi with your favorite distro and Node.js (v0.10). I'm also leaving it up to you to figure out how to either start the server via a cron with the @reboot directive or runnig it via screen.
+I'm assuming you know how to setup your Raspberry Pi with your favorite distro and Node.js (v0.10). I'm also leaving it up to you to figure out how to either start the server via upstart, a cron with the @reboot directive, or runnig it via screen. 
 
 ### Parts List
 
@@ -22,3 +22,7 @@ I'm assuming you know how to setup your Raspberry Pi with your favorite distro a
 ### Wiring Diagarm
 
 ![RPI Garage Door](https://raw.githubusercontent.com/simianhacker/rpi-garage-door/master/rpi-garage-door_bb.png)
+
+### Inspiration
+
+http://www.driscocity.com/idiots-guide-to-a-raspberry-pi-garage-door-opener/
