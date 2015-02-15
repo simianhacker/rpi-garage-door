@@ -1,0 +1,20 @@
+{
+  "name": "rpi-garage-door",
+  "version": "1.0.0",
+  "description": "A Raspberry Pi automatic garage door controller.",
+  "keywords": "raspberry pi garage door opener smartthings",
+  "main": "index.js",
+  "author": "Chris Cowan <chirs@chriscowan.us>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simianhacker/rpi-garage-door.git"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.6",
+    "connect": "^3.3.4",
+    "connect-route": "^0.1.4",
+    "morgan": "^1.5.1",
+    "pi-gpio": "0.0.6"
+  }
+}
