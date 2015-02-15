@@ -23,6 +23,10 @@ I'm assuming you know how to setup your Raspberry Pi with your favorite distro a
 
 ![RPI Garage Door](https://raw.githubusercontent.com/simianhacker/rpi-garage-door/master/rpi-garage-door_bb.png)
 
+### SmartThings Integration
+
+![SmartThings Integration](https://dl.dropboxusercontent.com/u/41596401/smartthings-garage.png?raw=1)
+
 ### Inspiration
 
 http://www.driscocity.com/idiots-guide-to-a-raspberry-pi-garage-door-opener/
