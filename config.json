@@ -1,4 +1,5 @@
 {
   "reed_switch_pin": 7,
-  "relay_pin": 12
+  "relay_pin": 12,
+  "timeout": 180000
 }
