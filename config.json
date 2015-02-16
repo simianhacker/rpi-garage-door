@@ -1,1 +1,4 @@
-{ }
+{
+  "reed_switch_pin": 7,
+  "relay_pin": 12
+}
