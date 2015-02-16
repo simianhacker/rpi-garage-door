@@ -44,7 +44,7 @@ garage.setup().then(function () {
   }));
 
   http.createServer(app).listen(port, function () {
-    console.log('[%s] Starting server on port %d', (new Date()).toString(), port);
+    console.log('[%s] Starting server on port %d', (new Date()).toISOString(), port);
   });
 }).catch(function (err) {
 console.error(err);
