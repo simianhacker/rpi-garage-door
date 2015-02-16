@@ -15,7 +15,7 @@
     "connect": "^3.3.4",
     "connect-route": "^0.1.4",
     "morgan": "^1.5.1",
-    "pi-gpio": "0.0.6",
+    "onoff": "^1.0.1",
     "request": "^2.53.0"
   }
 }
