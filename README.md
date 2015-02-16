@@ -8,10 +8,10 @@ I'm assuming you know how to setup your Raspberry Pi with your favorite distro a
 
 ### Install
 
-1 Install quick2wire/quick2wire-gpio-admin (One issue I found with this project is that I had to be running 2014-12-24-wheezy-raspbian. It seems that things changed in the 3.18 kernel which make it incompatible with quickwire-gpio-admin)
-1 `git clone https://github.com/simianhacker/rpi-garage-door.git`
-1 `cd rpi-garage-door && npm install`
-1 `node index.js`
+1. Install quick2wire/quick2wire-gpio-admin (One issue I found with this project is that I had to be running 2014-12-24-wheezy-raspbian. It seems that things changed in the 3.18 kernel which make it incompatible with quickwire-gpio-admin)
+1. `git clone https://github.com/simianhacker/rpi-garage-door.git`
+1. `cd rpi-garage-door && npm install`
+1. `node index.js`
 
 ### Parts List
 
