@@ -26,10 +26,11 @@ garage.setup().then(function () {
     });
 
     router.post('/subscribe', function (req, res, next) {
-      var sendError = function () {
+      var sendError = function (err) {
+        if (err) console.error(err);
         res.statusCode = 400;
         res.setHeader('content-type', 'application/json');
-        res.end(JSON.stringify({ status: garage.status, err: 'Callback missing.' }));
+        res.end(JSON.stringify({ status: garage.status, err: err && err.message || 'Callback missing.' }));
       };
       if (!req.headers['x-callback']) {
         return sendError();
